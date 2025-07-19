@@ -234,9 +234,7 @@ padding-left: 472px;
 }
 .portfolio-page {
     padding-top: 120px;
-    padding-right: 156px;
     padding-bottom: 120px;
-    padding-left: 156px;
 }
 .portfolio-page .portfolio-title {
     font-weight: 700;
@@ -253,18 +251,25 @@ padding-left: 472px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    justify-content: space-between; 
+    justify-content: space-between;
+    row-gap: 48px;
 }
 .portfolio-list .port-im {
     width: 360px;
     height: 300px;
 }
-.portfolio-list .port-title {
+.port-im .port-list {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.port-list .port-title {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 .portfolio-list .port-text {
     font-weight: 400;
