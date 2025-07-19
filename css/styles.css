@@ -152,16 +152,14 @@ padding-left: 472px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.post-container .visually-hidden {
+.visually-hidden {
     position: absolute;
+    clip: rect(0, 0, 0, 0);
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
-    border: 0;
 }
 .post {
     display: flex;
@@ -172,7 +170,7 @@ padding-left: 472px;
     padding-left: 156px;
 }
 .post .post-list {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .name {
     margin-bottom: 8px;
