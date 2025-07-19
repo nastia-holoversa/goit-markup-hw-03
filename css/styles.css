@@ -152,16 +152,16 @@ padding-left: 472px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.visually-hidden {
+.post-container .visually-hidden {
     position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 .post {
     display: flex;
@@ -171,8 +171,8 @@ padding-left: 472px;
     padding-bottom: 120px;
     padding-left: 156px;
 }
-.post-list {
-    width: calc((100% - 72px) / 4);
+.post .post-list {
+    flex-basis: calc((100% - 72px) / 4);
 }
 .name {
     margin-bottom: 8px;
@@ -190,9 +190,7 @@ padding-left: 472px;
 .team-page {
     background-color: #F4F4FD;
     padding-top: 120px;
-    padding-right: 156px;
     padding-bottom: 120px;
-    padding-left: 156px;
 }
 .team-page .team-title {
     text-align: center;
@@ -212,16 +210,22 @@ padding-left: 472px;
 }
 .team-page .team-list {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
-.team-page .team-name {
+.tl-punct {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.tl-punct .team-name {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
-    text-align: center;
+    margin-bottom: 8px;
     color: #2e2f42;
 }
-.team-page .team-text {
+.tl-punct .team-text {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
