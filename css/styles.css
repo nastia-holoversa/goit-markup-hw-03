@@ -79,6 +79,7 @@ img {
     line-height: 1.5;
 }
 .nav .nav-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
     color: #2e2f42;
@@ -92,6 +93,7 @@ img {
     line-height: 1.5;
 }
 .address .link-add {
+    display: block;
     color: #434455;
 }
 .address .subaddress {
@@ -104,11 +106,10 @@ img {
 }
 .main-page {
 background-color: #2e2f42;
-padding-top: 188px;
-padding-right: 472px;
-padding-bottom: 188px;
-padding-left: 472px;
+padding: 188px 472px;
+text-align: center;
 }
+
 .page-title {
     color:#ffffff;
     width: fit-content;
